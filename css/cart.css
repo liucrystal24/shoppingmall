@@ -1,0 +1,155 @@
+#main{
+  width:90%;
+  margin:auto;
+  margin-bottom: 400px;
+}
+#cart {
+  border: 1px solid #f1f1f1;
+  border-top: 2px solid #aaa;
+  width:100%;
+  background-color: #fcfffa;
+  margin: 0px auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+.cart_title{
+  margin-top:50px;
+  color: #555;
+}
+#cart td, #cart th {
+  min-height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 5px;
+  vertical-align: top;
+  text-align: left;
+}
+
+#cart thead input {
+  vertical-align: middle;
+}
+
+#cart tbody input[type='checkbox'] {
+  float: left;
+  margin-right: 10px;
+}
+
+#cart tbody div {
+  border: 1px solid #f1f1f1;
+  padding: 5px;
+  float: left;
+  width: 90px;
+  height: 80px;
+  text-align: center;
+}
+
+#cart tbody img {
+  width: 90%;
+}
+
+#cart a {
+  text-decoration: none;
+  color: #666;
+}
+
+#cart a:hover {
+  color: #E4393C;
+}
+
+#cart tbody td span {
+  font-weight: bold;
+}
+#cart tbody td{
+  position:relative;
+}
+#cart tbody td input[type='text'] {
+  border: 1px solid #CACBCB;
+  border-left: 0;
+  border-right: 0;
+  height: 20px;
+  width: 40px;
+  padding: 0;
+  text-align: center;
+}
+
+#cart tbody td button {
+  border: 1px solid #CACBCB;
+  height: 18px;
+  line-height: 18px;
+  width: 20px;
+  padding: 0;
+  background-color: #fff;
+  box-sizing: content-box;
+  position:absolute;
+  top:15px;
+}
+.button-left{
+  left:-16px;
+}
+
+#cart_footer {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #fff;
+  box-shadow: 0 -1px 8px rgba(0, 1, 1, .08);
+  z-index: 10000;
+  opacity: 0.9;
+}
+
+#cart_footer > div {
+  text-align: right;
+  margin: 10px auto;
+  width: 80%;
+  height: 52px;
+  line-height: 52px;
+}
+
+#cart_footer > div > span {
+  font-size: 16px;
+  color: #337ab7;
+  font-weight: 700;
+}
+
+#cart_footer > div > button {
+  display: inline-block;
+  width: 96px;
+  height: 52px;
+  overflow: hidden;
+  background-color: #337ab7;
+  border: 0;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "microsoft yahei";
+  margin-left: 20px;
+  border-radius:5px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#cart tbody img {
+  transition: transform 0.5s linear;
+}
+#cart tbody img:hover {
+  transform: scale(1.2);
+  /*transform:rotateY(180deg);*/
+}
+
+#cart:hover::before {
+  transition: left 3s;
+  left: 1360px;
+}
+#site_footer{
+  margin-bottom:50px;
+}
+#site_footer h4{
+  color: #fff;
+}

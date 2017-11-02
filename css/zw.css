@@ -1,0 +1,115 @@
+@charset "utf-8";
+/*通用*/
+body {
+	font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#666;
+    margin:0px;
+    padding:0px;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+    margin:0px;
+    padding:0px;
+    border:none;
+    list-style:none;
+}
+input {border:none;}
+.lf   {float:left;}
+.rt  {float:right;}
+.clear  {clear:both;}
+
+/*整体布局*/
+#top {
+    width:100%;
+    height:30px;
+    background:#F7F7F7;
+    line-height:30px;
+    border-bottom:1px solid #eee;
+}
+#top_box {
+    height:30px;    
+}
+#top_main {
+    height:60px;
+    padding:15px 0;
+    margin:10px;
+}
+#nav {
+    height:40px;
+}
+#foot_box {
+    height:173px;
+}
+#footer {
+    height:180px;
+}
+
+/*我的京东*/
+#my_jd {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 12px;
+    border-radius: 4px;
+    padding: 0 4px 0 10px;
+    border: 1px solid #EFEFEF;
+    background-color: #337ab7;
+    text-align: center;
+    cursor: pointer;
+    float:right;
+    color:#fff;
+}
+#my_jd b {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #CCC transparent transparent transparent;
+    line-height: 27px;
+    cursor: pointer;
+    position:relative;
+    top:10px;
+    right:-3px;
+}
+#my_jd:hover {
+    background-color:#337ab7;
+    background-position: -116px -54px;
+}
+/*去购物车结算*/
+#settle_up {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;    
+    margin-top: 12px;
+    margin-left:10px;
+    padding: 0 5px 0px 5px;
+    border: 1px solid #EFEFEF;
+    background-color: #337ab7;
+    text-align: center;
+    cursor: pointer;
+    color:#fff;
+    float:right;
+    border-radius: 4px;
+}
+#settle_up:hover {
+    background-color:#337ab7;
+    background-position: -115px -114px;
+    z-index:60;
+}
+.copyright {
+    width:800px;
+    margin:0px auto;
+    margin-top:12px;
+    line-height:20px;
+}
+.links a {
+    margin:0px 10px;
+}
+.authentication {
+    margin:12px auto;
+    width:532px;
+}
+.authentication a {
+    margin:10px 12px;
+    float:left;
+}
+#main .container > div.active {
+	display: block;
+}

@@ -1,0 +1,191 @@
+body {
+  background: url("../images/bg2.jpg");
+  font-family:"Microsoft YaHei"
+}
+/*carousel滚动图片*/
+.my-logo {
+  display: inline-block;
+  width: 50px;
+  height: 42px;
+  background: url("../images/zhan.jpg")  no-repeat;
+  margin-top: -10px;
+}
+.my-navbar a:hover{
+  text-decoration: none;
+  color: #337ab7 !important;
+}
+#carousel-ad img{
+  margin: 0 auto;
+  width:80%;
+}
+.carousel-left{
+  position:absolute;
+  top:50%;
+  left:13%;
+  font-size: 2em;
+  color:#ddd;
+}
+.carousel-right{
+  position:absolute;
+  top:50%;
+  left:83%;
+  font-size: 2em;
+  color:#ddd;
+}
+/*主题部分*/
+.my-main{
+  margin:20px;
+}
+.t1{
+  position:relative;
+  overflow: hidden;
+}
+.my-main a{
+  cursor: pointer;
+  background-color: #fff;
+  color: #337ab7;
+  padding: 10px 10px;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+}
+.my-main a:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color:#337ab7;
+}
+.my-main ul>li{
+  list-style: none;
+  margin:10px;
+}
+.p-right img{
+  transition: all 0.5s linear;
+}
+.p-right img:hover{
+  transform: rotateY(180deg);
+}
+#tc20,#tc30,#tc40{
+  display: none;
+}
+/*bbs讨论区*/
+#bbs img{
+  width:35px;
+  height:35px;
+  margin:10px;
+}
+#bbs>div{
+  margin-bottom:20px;
+  position: relative;
+  transition: all 0.5s linear
+}
+#bbs>div:hover{
+ left:10px;
+}
+#bbs>div>a{
+  background:rgba(0,0,0,0.5);
+  min-height:100px;
+  color:#fff;
+}
+#bbs>div>a:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#bbs>div>a>div{
+  margin:10px;
+  width:80%;
+}
+#bbs span{
+  color:#f7931e;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+
+}
+.lf{
+  float: left;
+}
+#bbs{
+  color: #fff;
+}
+.gameactive{
+  color: #fff !important;
+  background-color:#337ab7 !important;
+}
+/*登录模态框*/
+.modal-content .alert {
+  margin: 15px 0;
+  border: 1px solid #337ab7;
+  background: #fff;
+  color: #337ab7;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 2px;
+}
+.modal-content input {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 6px 0;
+  line-height: 2em;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  padding: 2px 6px
+}
+.goTop{
+  width:70px;
+  height:70px;
+  border-radius: 10px;
+  position:fixed;
+  right:5%;
+  bottom:8%;
+  background: #26292E;
+  cursor: pointer;
+  transition: all 0.5s ease-out 0s;
+  text-align: center;
+  z-index: 100;
+}
+.goTop span{
+  display: inline-block;
+  margin: 0;
+  color: #55606a;
+  font-size: 32px;
+  line-height: 70px;
+  opacity: 0.3;
+  transition: all 400ms ease-out 0s;
+}
+.goTop:hover{
+  background-color:#337ab7;
+  transform: rotateY(180deg);
+}
+
+.goTop:hover span{
+  color:#fff;
+  opacity: 1;
+}
+
+.weixin{
+  position:fixed;
+  left:1%;
+  bottom:8%;
+  width:55px;
+  height:54px;
+  border-radius:10px;
+  background: url("../images/weixin.jpg");
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.weixin:hover{
+  background: url("../images/weixin.jpg") -94px 0;
+}
+.liu-wei{
+  display: none;
+  position:fixed;
+  left:6%;
+  bottom:8%;
+}
+.my-footer a{
+  text-decoration: none;
+}
+.my-footer h4{
+  color:#fff;
+}

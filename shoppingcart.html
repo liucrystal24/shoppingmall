@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> 战网商城－购物车 </title>
+  <meta charset="utf-8"/>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <link href="images/favicon.2dy4z.ico" rel="shortcut icon">
+</head>
+
+<body>
+<div id="site_header"></div>
+<div id="main">
+  <h1 class="cart_title" style="color:#fff;">我的购物车</h1>
+  <table id="cart">
+    <thead>
+    <tr>
+      <th>
+        <input type="checkbox" id="selAll"/>
+        <label for="selAll">全选</label>
+      </th>
+      <th>商品</th>
+      <th>单价（元）</th>
+      <th>数量</th>
+      <th>小计</th>
+      <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>
+        <input type="checkbox"/>
+        <input type="hidden" value="1"/>
+
+        <div><img src="images/game/game1.jpeg" alt=""/></div>
+      </td>
+      <td><a href="">小米 Note</a></td>
+      <td>1199.00</td>
+      <td>
+        <button>-</button>
+        <input type="text" value="1"/>
+        <button>+</button>
+      </td>
+      <td><span>1199.00</span></td>
+      <td><a href="">删除</a></td>
+    </tr>
+    </tbody>
+  </table>
+  <footer id="cart_footer">
+    <div>
+      总价：<span></span>
+      <button onclick="location.href='addorder.html'">去结算</button>
+    </div>
+  </footer>
+</div>
+<div id="site_footer"></div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script src="js/shoppingcart.js"></script>
+</body>
+</html>

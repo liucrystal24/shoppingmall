@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <!--响应式布局-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>注册</title>
+  <!--修改图片，找到战网图标-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/register.css">
+  <link href="images/favicon.2dy4z.ico" rel="shortcut icon">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+<body>
+<!--页面内容-->
+<div class="header">
+
+</div>
+<div class="main">
+  <!--背景视频-->
+  <div class="video-frame">
+    <video autoplay loop>
+      <!--<source src="Resources/homepage-hero-video.webm">-->
+      <source src="Resources/kalazan.mp4">
+    </video>
+  </div>
+  <!--表单-->
+  <div class="content container">
+    <div class="text-center header">
+      <h1>欢迎注册</h1>
+    </div>
+    <form class="form form-horizontal" id="form-register">
+      <div class="form-group">
+        <label class="col-md-2 control-label" for="username">用户名:</label>
+        <div class="col-md-5">
+          <input name="username" id="username" type="text" class="form-control" autofocus placeholder="请输入用户名" required pattern="^[a-zA-Z0-9]{8,16}$">
+        </div>
+        <label id="usernameTip" class="col-md-5">请输入8至16位的英文或数字.</label>
+      </div>
+      <div class="form-group">
+        <label class="col-md-2 control-label" for="password">密码:</label>
+        <div class="col-md-5">
+          <input name="password" id="password" type="password" class="form-control" placeholder="请输入密码" required pattern="^[0-9]{6,12}$">
+        </div>
+        <label id="passwordTip" class="col-md-5 hide control-default">请输入6至12位的数字.</label>
+      </div>
+      <div class="form-group">
+        <label class="col-md-2 control-label" for="email">电子邮件:</label>
+        <div class="col-md-5">
+          <input  name="email" id="email" type="email" class="form-control" placeholder="请输入电子邮件" required>
+        </div>
+        <label id="emailTip" class="col-md-5 hide control-default">请输入你的电子邮件地址.</label>
+      </div>
+      <div class="form-group">
+        <label class="col-md-2 control-label" for="home">个人主页:</label>
+        <div class="col-md-5">
+          <input name="home" id="home" type="url" class="form-control" placeholder="请输入个人主页">
+        </div>
+        <label id="homeTip" class="col-md-5 hide control-default">请输入你的个人主页(该项可忽略).</label>
+      </div>
+      <div class="form-group">
+        <div class="col-md-5 col-md-push-2">
+          <input id="bt-submit" type="button" value="注册" class="btn green btn-block">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<!--版权信息-->
+<div class="my-footer">
+  <div class="container">
+    <!--1行2列(再分为1行2列)-->
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <h4>关于战网</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">公司信息</a></li>
+              <li><a href="#">投资者关系</a></li>
+              <li><a href="#">联系我们</a></li>
+              <li><a href="#">新闻发布室</a></li>
+              <li><a href="#">网站地图</a></li>
+              <li><a href="#">工作</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <h4>支持</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">微信公众号</a></li>
+              <li><a href="#">官方微博</a></li>
+              <li><a href="#">战网邮箱</a></li>
+              <li><a href="#">公司地址</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <h4>法律声明</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">战网使用条款</a></li>
+              <li><a href="#">战网论坛行为规范</a></li>
+              <li><a href="#">战网最终用户许可协议</a></li>
+              <li><a href="#">暴雪娱乐商标使用准则</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <h4>账号安全</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">技术研究团队</a></li>
+              <li><a href="#">客户支持</a></li>
+              <li><a href="#">战网密保产品</a></li>
+              <li><a href="#">绑定密保手机</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>
